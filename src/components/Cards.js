@@ -33,7 +33,7 @@ function Cards({courses,category,setCategory}){
 
   }
   return (
-    <div className={`w-[11/12] max-w-[950px] mx-auto flex flex-wrap justify-center gap-[16px] mb-5
+    <div className={`w-[85%] max-w-[950px] mx-auto flex flex-wrap justify-center gap-[16px] mb-5
                ${category==='Lifestyle' ? ('pt-[20px]') : ('')} `}>
       {
         getCourses().map((course)=>{
